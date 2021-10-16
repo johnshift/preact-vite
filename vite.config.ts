@@ -8,5 +8,5 @@ export default defineConfig({
     jsxFactory: 'h',
     jsxFragment: 'Fragment',
   },
-  plugins: [preact(), WindiCSS()]
+  plugins: [preact(), WindiCSS()],
 })
