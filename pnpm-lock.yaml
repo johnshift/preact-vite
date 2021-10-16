@@ -5,6 +5,8 @@ specifiers:
   '@prefresh/vite': ^2.2.3
   cross-env: ^7.0.3
   preact: ^10.5.13
+  preact-async-route: ^2.2.1
+  preact-router: ^3.2.1
   typescript: ^4.3.2
   vite: ^2.6.4
   vite-plugin-windicss: ^1.4.11
@@ -12,6 +14,8 @@ specifiers:
 
 dependencies:
   preact: 10.5.15
+  preact-async-route: 2.2.1
+  preact-router: 3.2.1_preact@10.5.15
 
 devDependencies:
   '@preact/preset-vite': 2.1.4_preact@10.5.15+vite@2.6.7
@@ -870,6 +874,18 @@ packages:
       picocolors: 0.2.1
       source-map-js: 0.6.2
     dev: true
+
+  /preact-async-route/2.2.1:
+    resolution: {integrity: sha512-8bg1007akXs3YDmzYT4McaTe6ji2FIzcc0/NTlu+vjJaKPNQ8lNG/HQ6LP+FoIxQ4m/KH5vvJCHJN5ADp2iNGA==}
+    dev: false
+
+  /preact-router/3.2.1_preact@10.5.15:
+    resolution: {integrity: sha512-KEN2VN1DxUlTwzW5IFkF13YIA2OdQ2OvgJTkQREF+AA2NrHRLaGbB68EjS4IeZOa1shvQ1FvEm3bSLta4sXBhg==}
+    peerDependencies:
+      preact: '>=10'
+    dependencies:
+      preact: 10.5.15
+    dev: false
 
   /preact/10.5.15:
     resolution: {integrity: sha512-5chK29n6QcJc3m1lVrKQSQ+V7K1Gb8HeQY6FViQ5AxCAEGu3DaHffWNDkC9+miZgsLvbvU9rxbV1qinGHMHzqA==}
